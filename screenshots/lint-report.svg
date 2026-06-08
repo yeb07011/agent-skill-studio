@@ -1,0 +1,19 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="540" rx="24" fill="#F8FAFC"/>
+  <text x="48" y="78" fill="#111827" font-family="Inter, Arial" font-size="34" font-weight="900">Skill Lint Report</text>
+  <rect x="48" y="118" width="240" height="170" rx="18" fill="#ECFDF5" stroke="#99F6E4"/>
+  <text x="82" y="184" fill="#047857" font-family="Inter, Arial" font-size="62" font-weight="900">94</text>
+  <text x="84" y="226" fill="#111827" font-family="Inter, Arial" font-size="22" font-weight="800">excellent</text>
+  <text x="84" y="258" fill="#475569" font-family="Inter, Arial" font-size="14">safe enough to share</text>
+  <rect x="326" y="118" width="586" height="350" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="360" y="164" fill="#111827" font-family="Inter, Arial" font-size="22" font-weight="900">Issues</text>
+  <rect x="360" y="196" width="514" height="58" rx="12" fill="#FFF7ED" stroke="#FDBA74"/>
+  <text x="384" y="231" fill="#9A3412" font-family="Inter, Arial" font-size="16" font-weight="800">warning</text>
+  <text x="474" y="231" fill="#111827" font-family="Inter, Arial" font-size="16">Missing human review step</text>
+  <rect x="360" y="274" width="514" height="58" rx="12" fill="#EFF6FF" stroke="#BFDBFE"/>
+  <text x="384" y="309" fill="#1D4ED8" font-family="Inter, Arial" font-size="16" font-weight="800">info</text>
+  <text x="474" y="309" fill="#111827" font-family="Inter, Arial" font-size="16">Add success criteria for sharper QA</text>
+  <rect x="360" y="352" width="514" height="58" rx="12" fill="#FEF2F2" stroke="#FCA5A5"/>
+  <text x="384" y="387" fill="#B91C1C" font-family="Inter, Arial" font-size="16" font-weight="800">danger</text>
+  <text x="474" y="387" fill="#111827" font-family="Inter, Arial" font-size="16">Network command risk detected</text>
+</svg>

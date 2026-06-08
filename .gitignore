@@ -1,0 +1,9 @@
+node_modules/
+dist/
+packages/*/dist/
+apps/web/dist/
+.tools/
+.DS_Store
+
+generated/*
+!generated/.gitkeep

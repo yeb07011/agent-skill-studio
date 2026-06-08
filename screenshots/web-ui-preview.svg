@@ -1,0 +1,45 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="28" fill="#F6F7FB"/>
+  <rect x="36" y="32" width="1128" height="92" rx="18" fill="#111827"/>
+  <text x="72" y="70" fill="#7DD3FC" font-family="Inter, Arial" font-size="14" font-weight="700">AGENT SKILL STUDIO</text>
+  <text x="72" y="102" fill="#FFFFFF" font-family="Inter, Arial" font-size="30" font-weight="800">Turn prompts into portable AI agent skills</text>
+  <rect x="44" y="152" width="384" height="524" rx="18" fill="#FFFFFF" stroke="#D9DEE8"/>
+  <text x="72" y="196" fill="#111827" font-family="Inter, Arial" font-size="20" font-weight="800">Skill Builder</text>
+  <rect x="72" y="224" width="328" height="48" rx="10" fill="#F9FAFB" stroke="#CBD5E1"/>
+  <text x="92" y="254" fill="#111827" font-family="Inter, Arial" font-size="16" font-weight="700">frontend-taste</text>
+  <rect x="72" y="296" width="328" height="124" rx="10" fill="#F9FAFB" stroke="#CBD5E1"/>
+  <text x="92" y="330" fill="#374151" font-family="Inter, Arial" font-size="15">Make landing pages visually</text>
+  <text x="92" y="354" fill="#374151" font-family="Inter, Arial" font-size="15">polished and production-ready.</text>
+  <rect x="72" y="444" width="154" height="46" rx="10" fill="#0F766E"/>
+  <text x="112" y="474" fill="#FFFFFF" font-family="Inter, Arial" font-size="16" font-weight="800">Generate</text>
+  <rect x="246" y="444" width="154" height="46" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="306" y="474" fill="#111827" font-family="Inter, Arial" font-size="16" font-weight="800">Lint</text>
+  <rect x="72" y="516" width="328" height="112" rx="14" fill="#ECFDF5" stroke="#99F6E4"/>
+  <text x="96" y="560" fill="#047857" font-family="Inter, Arial" font-size="34" font-weight="900">100</text>
+  <text x="166" y="555" fill="#111827" font-family="Inter, Arial" font-size="18" font-weight="800">Excellent</text>
+  <text x="96" y="592" fill="#475569" font-family="Inter, Arial" font-size="14">No major structure or safety issues.</text>
+  <rect x="456" y="152" width="272" height="524" rx="18" fill="#FFFFFF" stroke="#D9DEE8"/>
+  <text x="484" y="196" fill="#111827" font-family="Inter, Arial" font-size="20" font-weight="800">Templates</text>
+  <g fill="#F8FAFC" stroke="#CBD5E1">
+    <rect x="484" y="224" width="216" height="70" rx="12"/>
+    <rect x="484" y="312" width="216" height="70" rx="12"/>
+    <rect x="484" y="400" width="216" height="70" rx="12"/>
+    <rect x="484" y="488" width="216" height="70" rx="12"/>
+  </g>
+  <text x="508" y="254" fill="#111827" font-family="Inter, Arial" font-size="15" font-weight="800">frontend-taste</text>
+  <text x="508" y="342" fill="#111827" font-family="Inter, Arial" font-size="15" font-weight="800">code-review</text>
+  <text x="508" y="430" fill="#111827" font-family="Inter, Arial" font-size="15" font-weight="800">ai-evaluation</text>
+  <text x="508" y="518" fill="#111827" font-family="Inter, Arial" font-size="15" font-weight="800">github-trending</text>
+  <rect x="756" y="152" width="400" height="524" rx="18" fill="#0B1220"/>
+  <rect x="784" y="180" width="132" height="34" rx="9" fill="#14B8A6"/>
+  <text x="808" y="202" fill="#FFFFFF" font-family="Inter, Arial" font-size="14" font-weight="800">SKILL.md</text>
+  <rect x="1006" y="180" width="122" height="34" rx="9" fill="#FFFFFF"/>
+  <text x="1048" y="202" fill="#111827" font-family="Inter, Arial" font-size="14" font-weight="800">Copy</text>
+  <text x="784" y="262" fill="#D1FAE5" font-family="Menlo, monospace" font-size="16"># Frontend Taste</text>
+  <text x="784" y="312" fill="#E5E7EB" font-family="Menlo, monospace" font-size="14">## Trigger Conditions</text>
+  <text x="784" y="348" fill="#CBD5E1" font-family="Menlo, monospace" font-size="14">- User asks for polished UI</text>
+  <text x="784" y="382" fill="#CBD5E1" font-family="Menlo, monospace" font-size="14">- Task involves a landing page</text>
+  <text x="784" y="436" fill="#E5E7EB" font-family="Menlo, monospace" font-size="14">## Quality Standards</text>
+  <text x="784" y="472" fill="#CBD5E1" font-family="Menlo, monospace" font-size="14">- Clear hierarchy</text>
+  <text x="784" y="506" fill="#CBD5E1" font-family="Menlo, monospace" font-size="14">- Responsive layout</text>
+</svg>

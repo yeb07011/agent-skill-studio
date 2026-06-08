@@ -1,0 +1,19 @@
+{
+  "name": "@agent-skill-studio/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "CLI for Agent Skill Studio.",
+  "bin": {
+    "agent-skill-studio": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@agent-skill-studio/core": "workspace:*"
+  },
+  "license": "MIT"
+}

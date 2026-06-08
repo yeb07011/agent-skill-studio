@@ -1,0 +1,18 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="540" rx="24" fill="#111827"/>
+  <rect x="32" y="30" width="896" height="44" rx="14" fill="#1F2937"/>
+  <circle cx="58" cy="52" r="7" fill="#F87171"/>
+  <circle cx="82" cy="52" r="7" fill="#FBBF24"/>
+  <circle cx="106" cy="52" r="7" fill="#34D399"/>
+  <text x="42" y="126" fill="#93C5FD" font-family="Menlo, monospace" font-size="18">$ pnpm agent-skill-studio generate --name frontend-taste</text>
+  <text x="42" y="172" fill="#D1FAE5" font-family="Menlo, monospace" font-size="18">Generated skill package: frontend-taste</text>
+  <text x="42" y="214" fill="#E5E7EB" font-family="Menlo, monospace" font-size="16">Output directory: generated/</text>
+  <text x="64" y="256" fill="#CBD5E1" font-family="Menlo, monospace" font-size="16">- generated/AGENTS.md</text>
+  <text x="64" y="292" fill="#CBD5E1" font-family="Menlo, monospace" font-size="16">- generated/agent-skill.json</text>
+  <text x="64" y="328" fill="#CBD5E1" font-family="Menlo, monospace" font-size="16">- generated/.codex/skills/frontend-taste/SKILL.md</text>
+  <text x="64" y="364" fill="#CBD5E1" font-family="Menlo, monospace" font-size="16">- generated/.claude/skills/frontend-taste/SKILL.md</text>
+  <text x="64" y="400" fill="#CBD5E1" font-family="Menlo, monospace" font-size="16">- generated/.cursor/rules/frontend-taste.mdc</text>
+  <text x="64" y="436" fill="#CBD5E1" font-family="Menlo, monospace" font-size="16">- generated/.gemini/frontend-taste.md</text>
+  <rect x="650" y="384" width="224" height="70" rx="14" fill="#064E3B"/>
+  <text x="682" y="426" fill="#D1FAE5" font-family="Inter, Arial" font-size="22" font-weight="900">ready to share</text>
+</svg>

@@ -1,0 +1,57 @@
+{
+  "name": "agent-skill-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.5.2",
+  "description": "Turn prompts and SOPs into reusable AI agent skill packages for Claude Code, Codex, Cursor, and Gemini CLI.",
+  "scripts": {
+    "agent-skill-studio": "tsc -p packages/core/tsconfig.json && tsx packages/cli/src/index.ts",
+    "build": "tsc -p packages/core/tsconfig.json && tsc -p packages/cli/tsconfig.json && vite build --config apps/web/vite.config.ts",
+    "build:core": "tsc -p packages/core/tsconfig.json",
+    "build:cli": "tsc -p packages/cli/tsconfig.json",
+    "build:web": "vite build --config apps/web/vite.config.ts",
+    "dev": "vite --config apps/web/vite.config.ts --host 0.0.0.0",
+    "dev:web": "vite --config apps/web/vite.config.ts --host 0.0.0.0",
+    "lint": "tsc -p packages/core/tsconfig.json --noEmit && tsc -p packages/cli/tsconfig.json --noEmit && tsc -p apps/web/tsconfig.json --noEmit",
+    "test": "vitest run",
+    "typecheck": "tsc -p packages/core/tsconfig.json && tsc -p packages/cli/tsconfig.json && tsc -p apps/web/tsconfig.json --noEmit"
+  },
+  "keywords": [
+    "ai-agent",
+    "agent-skills",
+    "ai-tools",
+    "skills",
+    "codex",
+    "claude-code",
+    "cursor",
+    "gemini-cli",
+    "prompt-engineering",
+    "developer-tools",
+    "typescript",
+    "llm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yeb07011/agent-skill-studio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yeb07011/agent-skill-studio/issues"
+  },
+  "homepage": "https://github.com/yeb07011/agent-skill-studio#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^4.5.5",
+    "vitest": "0.33.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
