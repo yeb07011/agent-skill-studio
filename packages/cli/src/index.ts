@@ -3,7 +3,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { generateSkillPackage, lintSkillContent, listTemplates } from "@agent-skill-studio/core";
-import type { GeneratedSkillPackage } from "@agent-skill-studio/core";
+import type { GeneratedSkillPackage, SkillTemplate } from "@agent-skill-studio/core";
 
 interface ParsedArgs {
   command?: string;
@@ -95,7 +95,7 @@ pnpm agent-skill-studio generate --name frontend-taste --description "Make landi
 }
 
 function printTemplates(asJson: boolean): void {
-  const templates = listTemplates().map((template) => ({
+  const templates = listTemplates().map((template: SkillTemplate) => ({
     id: template.templateId,
     name: template.name,
     description: template.description
@@ -116,7 +116,9 @@ async function generateCommand(args: ParsedArgs): Promise<void> {
   const description = getStringFlag(args.flags, "description");
   const templateId = getStringFlag(args.flags, "template") ?? name;
   const outputDir = getStringFlag(args.flags, "output") ?? generatedDir;
-  const matchedTemplate = listTemplates().find((template) => template.templateId === templateId || template.slug === templateId);
+  const matchedTemplate = listTemplates().find(
+    (template: SkillTemplate) => template.templateId === templateId || template.slug === templateId
+  );
   const finalDescription = description ?? matchedTemplate?.description;
 
   if (!finalDescription) {
